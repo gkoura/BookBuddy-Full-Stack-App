@@ -31,8 +31,8 @@ This is a full-stack web application built using Node.js, Express.js, React, and
 ### Steps to Run Locally:
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/gkoura/BookBuddy-Full-Stack-App.git
+   cd BookBuddy-Full-Stack-App
    ```
 2. **Install backend dependencies**
    ```sh
@@ -44,6 +44,7 @@ This is a full-stack web application built using Node.js, Express.js, React, and
    ```env
    PORT=4000
    MONGO_URI=your_mongodb_connection_string
+   MONGO_COLLECTION=the_name_of_your_collection
    JWT_SECRET=your_secret_key
    ```
 4. **Run the backend server**
@@ -64,6 +65,7 @@ This is a full-stack web application built using Node.js, Express.js, React, and
 Ensure the following environment variables are configured:
 - `PORT`
 - `MONGO_URI`
+- `MONGO_COLLECTION`
 - `JWT_SECRET`
 
 ## Contributing
